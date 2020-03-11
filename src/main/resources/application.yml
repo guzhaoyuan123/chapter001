@@ -1,0 +1,23 @@
+##服务器配置
+##server.port=8080
+##server.servlet.context-path=/
+##server.servlet.session.timeout=60m
+##
+##  ##tomcat配置
+##server.tomcat.uri-encoding=utf-8
+##server.tomcat.max-threads=200
+##server.tomcat.basedir=C:/apache-tomcat-9.0.30
+##
+##  ##配置证书
+##server.ssl.key-store=niit.p12
+##server.ssl.key-alias=tomcathttps
+##server.ssl.key-store-password=123456
+##
+##
+##  #book的属性值
+##book.name=红楼梦
+##book.author=
+##book.price=
+##book.description=${book.name}的价格是${book.price}元
+##
+##spring.profiles.active=dev
